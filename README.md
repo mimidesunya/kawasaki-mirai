@@ -1,9 +1,5 @@
-# かわさき 3.0
-未来のための本気の政策に、あなたの力を。
-
----
-
-このプロジェクトは実験的・参考的な試みとして公開しています。内容に関するご意見・ご提案はプルリクエストで受け付けていますが、[https://tatsuhiko.miya.be/](https://tatsuhiko.miya.be/)の連絡先からもご意見をお寄せいただけます。
+この政策集は実験的・参考的な試みとして https://github.com/mimidesunya/kawasaki-mirai で公開しています。
+内容に関するご意見・ご提案はプルリクエスト（[プルリクエストとは？](https://backlog.com/ja/git-tutorial/pull-request/01/)）で受け付けていますが、[https://tatsuhiko.miya.be/](https://tatsuhiko.miya.be/)の連絡先からもご意見をお寄せいただけます。
 
 ## 目次
 11. [池上町改良](11_池上町改良.md)
