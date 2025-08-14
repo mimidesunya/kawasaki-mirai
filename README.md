@@ -5,7 +5,7 @@
 11. [池上町改良](11_池上町改良.md)
 12. [ふれあい館中立化](12_ふれあい館中立化.md)
 13. [SDGs押し付けない](13_SDGs押し付けない.md)
+14. [情報公開と表現の自由の推進](14_情報公開と表現の自由の推進.md)
+15. [部落差別・同和対策関連事業の廃止](15_部落差別・同和対策関連事業の廃止.md)
+16. [市民・職員・議員等の言論の自由を守る](16_市民・職員・議員等の言論の自由を守る.md)
 
----
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TBJ3FqAGXgY" title="YouTube動画" frameborder="0" allowfullscreen></iframe>
