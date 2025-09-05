@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "schema": "kawasaki_program_eval.v2",
+    "generated_at": "2025-09-02T00:00:00+09:00",
+    "notes": "This is a template. Replace all TODO strings with actual values. Numbers are examples of types, not real data."
+  },
+  "enums": {
+    "impl_mode": [
+      {"code":"direct","label":"市が直接実施"},
+      {"code":"partial","label":"一部委託"},
+      {"code":"designated_mgr","label":"全部委託・指定管理"},
+      {"code":"volunteer","label":"ボランティア等との協働"},
+      {"code":"other","label":"その他"}
+    ],
+    "legal_basis_type": [
+      {"code":"national_pref","label":"国・県の制度"},
+      {"code":"national_pref_city","label":"国・県の制度＋市独自の制度"},
+      {"code":"city_only","label":"市独自の制度"}
+    ],
+    "funding_source": [
+      {"code":"national_subsidy","label":"国庫支出金"},
+      {"code":"municipal_bond","label":"市債"},
+      {"code":"other_special_fund","label":"その他特財"},
+      {"code":"general_fund","label":"一般財源"}
+    ],
+    "indicator_type": [
+      {"code":"activity","label":"活動"},
+      {"code":"outcome","label":"成果"},
+      {"code":"other","label":"その他"}
+    ],
+    "eval_category": [
+      {"code":"citizen_need","label":"市民のニーズ"},
+      {"code":"necessity","label":"市が実施する必要性"},
+      {"code":"effectiveness","label":"成果（有効性）"},
+      {"code":"private_util","label":"民間の活用"},
+      {"code":"method_review","label":"事業手法等の見直し（効率性）"},
+      {"code":"quality","label":"質の向上"}
+    ],
+    "action_direction": [
+      {"code":"I","label":"現状のまま継続"},
+      {"code":"II","label":"改善しながら継続"},
+      {"code":"III","label":"事業規模拡大"},
+      {"code":"IV","label":"事業規模縮小"},
+      {"code":"V","label":"事業廃止"},
+      {"code":"VI","label":"事業終了"}
+    ],
+    "achievement_level": [
+      {"code":1,"label":"目標を大きく上回って達成"},
+      {"code":2,"label":"目標を上回って達成"},
+      {"code":3,"label":"ほぼ目標どおり"},
+      {"code":4,"label":"目標を下回った"},
+      {"code":5,"label":"目標を大きく下回った"}
+    ]
+  },
+  "fiscal_years": [
+    {"label":"R4","gregorian":2022},
+    {"label":"R5","gregorian":2023},
+    {"label":"R6","gregorian":2024},
+    {"label":"R7","gregorian":2025}
+  ],
+  "programs": [
+    {
+      "code": "TODO_事務事業コード",
+      "name": "TODO_事務事業名",
+      "organization": {
+        "org_code": "TODO_組織コード",
+        "name": "TODO_所属名"
+      },
+      "classifications": {
+        "service_category": "TODO_事務・サービス等の分類",
+        "classification1": "TODO_分類1（例：施設の管理・運営、補助・助成金、その他）",
+        "classification2": "TODO_分類2（例：内部管理、―）"
+      },
+      "implementation": {
+        "modes": ["designated_mgr"],
+        "legal_basis_types": ["city_only"],
+        "legal_basis_text": "TODO_法令・要綱等",
+        "start_fiscal_year_label": "TODO_開始年度（例：H7, S49, R4）",
+        "end_fiscal_year_label": "TODO_終了年度（なければ null）"
+      },
+      "policy_links": {
+        "policy": "TODO_政策",
+        "measure": "TODO_施策",
+        "linked_plans": ["TODO_産業振興プラン など"],
+        "sdgs": {
+          "goals": [11],
+          "targets": ["11.7"],
+          "orientation_text": "TODO_SDGsの取組の方向性"
+        },
+        "reform_program_text": "TODO_行財政改革第３期プログラム関連"
+      },
+      "purpose_and_content": {
+        "direct_goal": "TODO_直接目標",
+        "target_population": "TODO_事業の対象",
+        "objective": "TODO_事業の目的",
+        "content": "TODO_事業の内容"
+      },
+      "finance": [
+        {
+          "fiscal_year_label":"R6",
+          "a_budget": 0,
+          "a_settlement": 0,
+          "a_planned": 0,
+          "b_human_budget": 0,
+          "b_human_settlement": 0,
+          "total_budget": 0,
+          "total_settlement": 0,
+          "manpower_person_year": 0.0,
+          "funding_breakdown": {
+            "national_subsidy": {"budget":0,"settlement":0},
+            "municipal_bond": {"budget":0,"settlement":0},
+            "other_special_fund": {"budget":0,"settlement":0},
+            "general_fund": {"budget":0,"settlement":0}
+          }
+        }
+      ],
+      "plan": {
+        "applicable_year_label": "R6",
+        "action_items":[
+          {"order":1,"text":"TODO_取組1"},
+          {"order":2,"text":"TODO_取組2"}
+        ],
+        "change_from_initial_plan": {
+          "change_points":"TODO_変更箇所",
+          "change_reason":"TODO_変更の理由"
+        }
+      },
+      "results_do": [
+        {
+          "fiscal_year_label":"R6",
+          "achievement_level": 3,
+          "result_text": "TODO_取組内容の実績等"
+        }
+      ],
+      "indicators":[
+        {
+          "type":"outcome",
+          "name":"TODO_指標名",
+          "description":"TODO_指標説明",
+          "unit":"％",
+          "values":[
+            {"fiscal_year_label":"R4","target":null,"actual":null},
+            {"fiscal_year_label":"R5","target":null,"actual":null},
+            {"fiscal_year_label":"R6","target":null,"actual":null},
+            {"fiscal_year_label":"R7","target":null,"actual":null}
+          ]
+        }
+      ],
+      "evaluation_check": {
+        "fiscal_year_label":"R6",
+        "environment_change":"TODO_社会環境の変化",
+        "improvements_history_text":"TODO_見直し・改善内容（履歴含む）",
+        "scores":[
+          {"category_code":"citizen_need","rating":"a","reason":"TODO_理由"},
+          {"category_code":"necessity","rating":"b","reason":"TODO_理由"},
+          {"category_code":"effectiveness","rating":"b","reason":"TODO_理由"},
+          {"category_code":"private_util","rating":"c","reason":"TODO_理由"},
+          {"category_code":"method_review","rating":"b","reason":"TODO_理由"},
+          {"category_code":"quality","rating":"b","reason":"TODO_理由"}
+        ],
+        "contribution": {"level":"A","reason":"TODO_施策への貢献理由"}
+      },
+      "action_improvement": {
+        "fiscal_year_label":"R6",
+        "direction_code":"II",
+        "direction_text":"TODO_今後の方向性本文",
+        "next_year_action_items":[
+          {"order":1,"text":"TODO_次年度取組1"},
+          {"order":2,"text":"TODO_次年度取組2"}
+        ]
+      },
+      "plan_change_note": {
+        "fiscal_year_label":"R6",
+        "change_points":"TODO_変更箇所",
+        "change_reason":"TODO_変更の理由"
+      },
+      "search_chunks": [
+        {"section":"PLAN","year_label":"R6","content":"TODO_取組や本文をまとめたテキスト","position":1},
+        {"section":"DO","year_label":"R6","content":"TODO_実績や達成度の要旨"},
+        {"section":"CHECK_ENV","year_label":"R6","content":"TODO_社会環境の変化 要旨"},
+        {"section":"CHECK_IMPROVE","year_label":"R6","content":"TODO_見直し・改善 要旨"},
+        {"section":"CHECK_SCORE","year_label":"R6","content":"TODO_評価項目と理由 要旨"},
+        {"section":"ACTION","year_label":"R6","content":"TODO_方向性本文 要旨"},
+        {"section":"NEXT_YEAR","year_label":"R6","content":"TODO_次年度取組 要旨"},
+        {"section":"INDICATOR","content":"TODO_指標名 説明 単位"}
+      ],
+      "sources": {
+        "filename": "TODO_元ファイル名.md",
+        "url": null
+      }
+    }
+  ]
+}
